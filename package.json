@@ -1,0 +1,22 @@
+{
+  "name": "@webwaka/organelle-prompt-assembler",
+  "version": "0.1.0",
+  "description": "Prompt Assembler organelle for WebWaka AI Cognitive Fabric",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo 'Tests configured'",
+    "lint": "echo 'Linting configured'"
+  },
+  "keywords": [
+    "webwaka",
+    "organelle",
+    "cognitive-fabric",
+    "prompt-assembler"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
