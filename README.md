@@ -1,45 +1,34 @@
-# Prompt Assembler
+# Repository Purged — Remediation Protocol
 
-**Organelle:** ORGN-AI-PROMPT_ASSEMBLER-v0.1.0
-**Layer:** AI Cognitive Fabric
-**Status:** Implemented
+**Date:** 2026-02-27
+**Authority:** webwaka007 (Founder)
+**Protocol:** REMEDIATION-01
 
-## Overview
+---
 
-The Prompt Assembler is a core organelle in the WebWaka AI Cognitive Fabric layer. It provides prompt assembler functionality for autonomous AI agent operations.
+## Status: AWAITING LEGITIMATE RE-EXECUTION
 
-## Architecture
+This repository has been **purged** as part of the Organelle-Universe Remediation Plan.
 
-```
-src/
-├── types.ts                    # Core type definitions
-├── prompt-assembler-entity.ts      # Entity model
-├── state-machine.ts            # State machine with transitions
-├── storage-interface.ts        # Pluggable storage abstraction
-├── event-interface.ts          # Event bus for state/error/metric events
-├── observability-interface.ts  # Metrics, tracing, and logging
-├── prompt-assembler-orchestrator.ts # Main orchestrator
-└── index.ts                    # Public API exports
-```
+### Reason for Purge
 
-## Usage
+A deep audit conducted on 2026-02-27 revealed that this repository contained only **template-level code** that was generated as part of an illegitimate batch closure of organelle-universe issues. The code did not represent real, phase-by-phase work as mandated by the 7-Phase Lifecycle and 8-Step Execution Protocol.
 
-```typescript
-import { PromptAssemblerOrchestrator } from "@webwaka/organelle-prompt-assembler";
+Specific violations found:
+- **Zero test files** — P3 (Testing) and P4 (Verification) phases were rubber-stamped
+- **Only 1-2 commits** — Expected multi-phase commit history was absent
+- **Template-identical structures** — Code was batch-generated, not individually crafted
+- **Agent protocol violations** — Issues were closed by agents different from those assigned
 
-const orchestrator = new PromptAssemblerOrchestrator({
-  id: "instance-1",
-  name: "Prompt Assembler",
-  version: "0.1.0",
-  maxConcurrency: 10,
-  timeoutMs: 5000,
-  retryPolicy: { maxRetries: 3, backoffMs: 1000, backoffMultiplier: 2 },
-});
+### What Happens Next
 
-await orchestrator.initialize();
-const result = await orchestrator.process(request);
-```
+This organelle will be re-executed from scratch following the full protocol:
+- P0: Specification (3 tasks with real deliverables)
+- P1: Design (3 tasks with real deliverables)
+- P2: Implementation (3 tasks with real deliverables)
+- P3: Testing (3 tasks with real test suites)
+- P4: Integration/Verification (3 tasks with real verification)
+- P5: Documentation/Deployment (3 tasks with real documentation)
+- P6: Ratification (3 tasks with real ratification artifacts)
 
-## Constitutional Compliance
-
-This organelle complies with all 8 articles of the WebWaka Constitution.
+Each task will be executed by the assigned agent using the correct PAT, with real commits pushed to this repository.
