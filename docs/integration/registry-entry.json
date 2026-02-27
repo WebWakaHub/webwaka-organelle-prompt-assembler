@@ -1,0 +1,16 @@
+{
+  "organelleId": "ORGN-AI-PROMPT_ASSEMBLER-v0.1.0",
+  "name": "PromptAssembler",
+  "version": "0.1.0",
+  "layer": "organelle",
+  "status": "VERIFIED",
+  "interfaces": [
+    "IPromptAssembler",
+    "IPromptAssemblerStorage",
+    "IPromptAssemblerEvents",
+    "IPromptAssemblerObservability"
+  ],
+  "dependencies": [],
+  "registeredAt": "2026-02-27T00:00:00Z",
+  "verifiedAt": "2026-02-27T00:00:00Z"
+}
